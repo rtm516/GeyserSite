@@ -5,6 +5,7 @@
     overflow-x: hidden;
     scroll-behavior:smooth;
     font-family: Noto Sans CJK SC, sans-serif;
+    font-family: inherit;
 }
 
 h1,h2,h3,p{
@@ -58,6 +59,7 @@ h1,h2,h3,p{
 }
 
 .logo-png{
+    overflow: hidden;
     height: 7rem;
     width: 7rem;
     background-color: #fff;
@@ -152,6 +154,10 @@ h1,h2,h3,p{
     background-color: #E1F5FE;
 }
 
+.page5-bg{
+    background-color: #B2DFDB;
+}
+
 .question{
     width: 10rem;
     height: 10rem;
@@ -194,7 +200,6 @@ h1,h2,h3,p{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .page5-icon{
@@ -206,6 +211,7 @@ h1,h2,h3,p{
 
 .page5-text{
     width: 45vw;
+    font-family: Helvetica;
 }
 
 .text-title{
@@ -214,4 +220,25 @@ h1,h2,h3,p{
 
 .text-subtitle{
     font-size: 1rem;
+}
+
+.page5-icon.github{
+    color: #37474F;
+}
+
+.page5-icon.discord{
+    color: #5C6BC0;
+    background-color: #B2DFDB;
+}
+
+.page5-icon.download{
+    color: #8BC34A;
+    background-color: #B2DFDB;
+}
+
+.footer{
+    text-align: center;
+    overflow: hidden;
+    padding: 1%;
+    background-color: #D1C4E9;
 }
