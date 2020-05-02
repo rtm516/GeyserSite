@@ -252,23 +252,3 @@ h1,h2,h3,p{
     overflow: hidden;
     padding: 1%;
 }
-
-a:link{
-    color:#FF0000;
-    text-decoration:underline;
-}
-
-a:visited{
-    color:#00FF00;
-    text-decoration:none;
-}
-
-a:hover{
-    color:#000000;
-    text-decoration:none;
-}
-
-a:active{
-    color:#FFFFFF;
-    text-decoration:none;
-}
