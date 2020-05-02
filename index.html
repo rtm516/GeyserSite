@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -17,7 +18,8 @@
             <div class="page1-cover">
                 <div class="cover-logo">
                     <div class="logo-png">
-                        <img src="lib/img/logo-only.png" width="256px" height="256px" style="width: 100%; height: auto;">
+                        <img src="lib/img/logo-only.png" alt="logo" width="256px" height="256px"
+                            style="width: 100%; height: auto;">
                     </div>
                     <h1 class="logo-title">
                         GeyserMC
@@ -104,7 +106,7 @@
         <div class="page5-bg">
             <div class="page5-cover" onclick="location.href='https://github.com/GeyserMC/Geyser'">
                 <div class="page5-icon github">
-                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-github"></i>
                 </div>
                 <div class="page5-text">
                     <div class="text-title">
@@ -145,19 +147,20 @@
     </div>
     <div class="footer scrollreveal">
         <p>© 2020 GeyserMC</p>
-        <p class="love">Made with<br>❤️<br>by <a href="https://github.com/GeyserMC/">Geyser Developer Team</a> & <a href="https://github.com/Electric-Shock-Apostle/">E.S.A Team</a></p>
+        <p class="love">Made with<br>❤️<br>by <a href="https://github.com/GeyserMC/">Geyser Developer Team</a> & <a
+                href="https://github.com/Electric-Shock-Apostle/">E.S.A Team</a></p>
     </div>
+    <script>
+        window.sr = ScrollReveal();
+        var config = {
+            scale: 0.85,
+            duration: 1500,
+            reset: false,
+            useDelay: 'onload',
+            origin: 'right'
+        };
+        sr.reveal('.scrollreveal', config);
+    </script>
 </body>
-<script>
-    window.sr = ScrollReveal();
-    var config = {
-        scale: 0.85,
-        duration: 1500,
-        reset: false,
-        useDelay: 'onload',
-        origin: 'right'
-    };
-    sr.reveal('.scrollreveal', config);
-</script>
 
 </html>
