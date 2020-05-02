@@ -74,7 +74,7 @@ h1,h2,h3,p{
 }
 
 .logo-subtitle{
-    font-weight: 200;
+    font-weight: 170;
     margin-top: 1rem;
     text-align: center;
 }
@@ -216,14 +216,14 @@ h1,h2,h3,p{
 }
 
 .page5-icon{
-    width: 35vw;
+    width: 40vw;
     font-size: 6rem;
     display: flex;
     justify-content: center;
 }
 
 .page5-text{
-    width: 65vw;
+    width: 55vw;
     font-weight: 200;
     margin-top: 1rem;
     text-align: center;
@@ -247,6 +247,10 @@ h1,h2,h3,p{
     text-align: center;
     overflow: hidden;
     padding: 1%;
+    background: #FAFAFA;
+    background: -webkit-linear-gradient(to right, #FAFAFA, #F5F5F5);
+    background: linear-gradient(to right, #FAFAFA, #F5F5F5);
+    padding: 4%;
 }
 .footer a{
     color: #4FC3F7;
