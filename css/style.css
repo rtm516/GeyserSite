@@ -1,14 +1,14 @@
-* {
+html, body {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, p {
     color: #09203f;
+    margin: 0;
 }
 
 #page1 .page-cover {
@@ -71,6 +71,12 @@ h1, h2, h3, p {
 
 .quick-button {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quick-button a {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 3.5rem;
@@ -78,6 +84,7 @@ h1, h2, h3, p {
     border-radius: 50%;
     font-size: 1.6rem;
     background-color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .download-icon {
@@ -192,14 +199,14 @@ h1, h2, h3, p {
 }
 
 .page5-icon {
-    width: 40vw;
+    width: 20vw;
     font-size: 6rem;
     display: flex;
     justify-content: center;
 }
 
 .page5-text {
-    width: 60vw;
+    width: 40vw;
     font-weight: 200;
     margin-top: 1rem;
     text-align: center;
